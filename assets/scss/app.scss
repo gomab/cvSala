@@ -1,0 +1,23 @@
+$primary: purple;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+$color_head : black;
+
+
+body{
+    background: azure;
+
+h1{
+    color: $color_head;
+}
+
+p{
+//font-size: 1.5rem;
+}
+
+.bg-primary{
+    background-color: #5a005a !important;
+}
+}
