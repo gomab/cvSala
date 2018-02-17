@@ -19,6 +19,6 @@ class IndexController extends Controller
      * @Route("/", name="homepage")
      */
     public function indexAction(){
-        return $this->render('base.html.twig');
+        return $this->render('views/cv.html.twig');
     }
 }
